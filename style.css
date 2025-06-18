@@ -1,0 +1,68 @@
+.body{
+    display: flex;
+    background-color: rgb(114, 109, 109);
+}
+.box{
+    height: 300px;
+    width:500px;
+    color:rgb(255, 230, 230) ;
+    box-shadow: 0 4px 10px black;
+    border-radius: px;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 20px;
+    gap: 20px;
+    
+}
+h1{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+    margin: auto;
+}
+.icon{
+    font-size: 35px;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    line-height: 60px;
+    margin-left: 230px;
+}
+.title{
+    font-size: 40px;
+    color: black;
+    margin-left: 150px;
+
+}
+.discription{
+color:black ;
+margin-left: 140px;
+flex-direction: column;
+display: inline-block;
+align-content: center;
+justify-content: center;
+padding-top:4%;
+}
+button{
+margin-left: 420px;
+height: 20px;
+display: flex;
+margin-top: -15px;
+}
+hr{
+ margin-top: 120px;
+}
+.top{
+    margin-top:20px ;
+}
+.in{
+    color: white;
+}
